@@ -18,6 +18,9 @@ It can be very tedious having to resize your browsers window to check for each r
 5. Push to the branch: `git push origin branch-name`
 6. Submit a pull request and I will look at it ASAP.
 
+## Disclaimer
+Ironically this website isn't fully responsive. Of course the design is, but the iframe will not be usable on small devices as the iframe loads the full resolution selected.
+
 ## Author
 Aaron Welsh  
 http://aaron-welsh.co.uk
