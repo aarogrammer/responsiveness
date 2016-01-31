@@ -22,6 +22,9 @@ It can be very tedious having to resize your browsers window to check for each r
 Aaron Welsh  
 http://aaron-welsh.co.uk
 
+## Disclaimer
+Ironically this website isn't fully responsive. Of course the design is, but the iframe will not be usable on small devices as the iframe loads the full resolution selected.
+
 ## License
 MIT
 </content>

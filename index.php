@@ -73,6 +73,8 @@
                     <p>With the popularity of mobile devices, it is crucial for your website to ensure it responds to users device size.</p>
                     <p>This tool, completely built in JavaScript, allows for you to load your website within an iFrame and check each screen resolution that you want to test responsiveness for.</p>
                     <p>This tool is open-source and is easy to modify, allowing for better responsive tests to be done.</p>
+                    <p><strong>Ironically this website isn't fully responsive. Of course the design is, but the iframe will not be usable on small devices
+                    as the iframe loads the full resolution selected.</strong></p>
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                     <a class="logo img-responsive" href="#container"></a>
