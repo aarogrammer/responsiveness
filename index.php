@@ -36,12 +36,12 @@
                         <input type="number" id="iframeHeight" placeholder="650" value="650">
                         </div>
                         <br>
-                        <a href="http://localhost/resptemp/index.php#" class="git"><i class="ion-social-github"></i></a>
+                        <a href="https://github.com/aarogrammer/responsiveness" class="git"><i class="ion-social-github"></i></a>
                 </div>
             </div>
         </div>
     </header>
-    <section id="container" class="container">
+    <section id="container">
         <div class="container">
             <div class="row">
                <div class="container-wrapper">
@@ -92,7 +92,7 @@
                     <div class="col-md-6 col-sm-6 col-xs-6">
                       <h3>Get this tool!</h3>
                        <div class="socialIcons">
-                            <a href="#"><i class="ion-social-github"></i></a>
+                            <a href="https://github.com/aarogrammer/responsiveness"><i class="ion-social-github"></i></a>
             			     </div>
                     </div>
                 </div>

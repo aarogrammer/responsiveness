@@ -27,7 +27,7 @@ Resp.prototype.updateDevice = function() {
   resp.loadIframe();
 }
 Resp.prototype.backToNormal = function(){
-  css('phone', {'border-width' : '55px 7px'})
+  css('phone', {'border-width' : '55px 7px', 'position' : 'relative','left': '0%'})
   css('circle', {'position' : 'relative', 'left' : '', 'top' : ''});
   this.currentRes.innerHTML     = "";
   this.lapBtm.className         = "";
@@ -36,7 +36,7 @@ Resp.prototype.backToNormal = function(){
 Resp.prototype.portraitView = function(){
   this.phone.style.width        = this.portrait.value + "px";
   this.phone.style.height       = "650px";
-  css('phone', {'border-width' : '55px 7px'})
+  css('phone', {'border-width' : '55px 7px', 'position' : 'relative','left': '0%'})
   css('circle', {'visibility' : 'visible', 'position' : 'relative', 'left' : '', 'top' : ''});
   this.currentRes.innerHTML     = "";
   this.lapBtm.className         = "";
@@ -46,7 +46,7 @@ Resp.prototype.portraitView = function(){
 Resp.prototype.landscapeView = function(){
   this.phone.style.width        = this.landscape.value + "px";
   this.phone.style.height       = "700px";
-  css('phone', {'border-width':'7px 55px'});
+  css('phone', {'border-width':'7px 55px', 'position' : 'relative','left': '0%'});
   css('circle', {'visibility' : 'visible', 'position' : 'relative', 'left' : '53%', 'top' : '-54%'});
   this.lapBtm.className         = "";
   this.currentRes.innerHTML     = "1024 x 700"
@@ -54,20 +54,20 @@ Resp.prototype.landscapeView = function(){
 }
 Resp.prototype.laptopView = function(){
   this.phone.style.width          = this.laptop.value + "px";
-  css('phone', {'border-width':'20px 20px'});
+  css('phone', {'border-width':'20px 20px', 'position' : 'relative','left': '0%'});
   css('circle', {'visibility' : 'hidden'});
   this.lapBtm.className = "btm"
   this.currentRes.innerHTML       = "1224 x 650"
   this.container.className        = "container";
-    this.phone.style.borderRadius = "10px";
+  this.phone.style.borderRadius   = "10px";
 }
 Resp.prototype.desktopView = function(){
-  this.phone.style.width    = this.desktop.value + "px";
-  this.phone.style.height   = "800px";
-  css('phone', {'border-width':'30px 30px'});
+  this.phone.style.width        = this.desktop.value + "px";
+  this.phone.style.height       = "800px";
+  css('phone', {'border-width':'30px 30px', 'position' : 'relative','left': '-30%'});
   css('circle', {'visibility' : 'hidden'});
   this.phone.style.borderRadius = "10px";
-  this.currentRes.innerHTML = "1920 x 800";
-  this.lapBtm.className     = "";
-  this.container.className  = "";
+  this.currentRes.innerHTML     = "1920 x 800";
+  this.lapBtm.className         = "";
+  this.container.className      = "";
 }
