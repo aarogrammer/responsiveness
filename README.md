@@ -25,5 +25,4 @@ http://aaron-welsh.co.uk
 ## License
 MIT
 </content>
-  <tabTrigger>readme</tabTrigger>
 </snippet>
