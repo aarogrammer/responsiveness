@@ -102,7 +102,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
-                        Copyright © <a href="http://aaron-welsh.co.uk">Aaron Welsh</a> 2016
+                        © <a href="http://aaron-welsh.co.uk">Aaron Welsh</a> 2016
                     </div>
                 </div>
             </div>
