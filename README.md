@@ -1,6 +1,6 @@
 <snippet>
   <content><![CDATA[
-# ${1:Responsiveness}
+# ${1:Project Name}
 Responsiveness is a simple tool to allow you to simply test the responsiveness of your web application.
 With a high amount of internet traffic being from smaller devices such as tablets and smartphones, it is important to insure your web application is useable on all devices.
 It can be very tedious having to resize your browsers window to check for each resolution, this tool simply allows you to either enter the resolution manually or click the buttons for the screen size you're testing for.
