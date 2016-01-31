@@ -59,15 +59,15 @@ Resp.prototype.laptopView = function(){
   this.lapBtm.className = "btm"
   this.currentRes.innerHTML       = "1224 x 650"
   this.container.className        = "container";
-  this.phone.style.borderRadius   = "10px";
+  this.phone.style.borderRadius = "10px";
 }
 Resp.prototype.desktopView = function(){
-  this.phone.style.width        = this.desktop.value + "px";
-  this.phone.style.height       = "800px";
+  this.phone.style.width    = this.desktop.value + "px";
+  this.phone.style.height   = "1000px";
   css('phone', {'border-width':'30px 30px', 'position' : 'relative','left': '-30%'});
   css('circle', {'visibility' : 'hidden'});
   this.phone.style.borderRadius = "10px";
-  this.currentRes.innerHTML     = "1920 x 800";
-  this.lapBtm.className         = "";
-  this.container.className      = "";
+  this.currentRes.innerHTML = "1920 x 1000";
+  this.lapBtm.className     = "";
+  this.container.className  = "";
 }
