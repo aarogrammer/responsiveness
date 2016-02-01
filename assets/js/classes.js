@@ -54,10 +54,11 @@ Resp.prototype.landscapeView = function(){
 }
 Resp.prototype.laptopView = function(){
   this.phone.style.width          = this.laptop.value + "px";
+  this.phone.style.height         = "700px";
   css('phone', {'border-width':'20px 20px', 'position' : 'relative','left': '0%'});
   css('circle', {'visibility' : 'hidden'});
   this.lapBtm.className = "btm"
-  this.currentRes.innerHTML       = "1224 x 650"
+  this.currentRes.innerHTML       = "1224 x 700"
   this.container.className        = "container";
   this.phone.style.borderRadius = "10px";
 }
