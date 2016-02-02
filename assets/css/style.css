@@ -34,8 +34,10 @@ header#header{
   padding: 30px;
 }
 #iframeURL{
-  padding: 20px;
+  padding: 15px;
   border: 1px solid #ccc;
+  color: #1b1b1b;
+  height: auto;
 }
 input[type=number]{
   margin-top: 10px;
