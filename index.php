@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
       <!--[if IE]>
@@ -23,7 +22,7 @@
     <header id="header">
         <div class="container">
             <div class="row text-center">
-                <div class="col-lg-6 col-lg-offset-3 ">
+                <div class="col-lg-6 col-lg-offset-3">
                     <h1>Responsiveness</h1>
                       <div id="custom">
                         <div class="input-group">
@@ -47,7 +46,7 @@
                <div class="container-wrapper">
                     <div class="phone" id="phone">
                       <iframe id="iframe" src=""></iframe>
-                      <div id="loadingMessage" style="display: none;"><img src="assets/img/gears.gif"></div>
+                      <div id="loadingMessage" style="display: none;"><img src="assets/img/gears.gif" alt="Loading the website" title="Loading the website"><!-- Image: http://loading.io/ --></div>
                       <a id="circle" class="circle" style="position: relative;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
                     </div>
                       <div id="lapBtm" class=""></div>
@@ -68,7 +67,7 @@
     <section id="about">
         <div class="container">
             <div class="row">
-                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                <div class="col-lg-7">
                     <h2>About this tool</h2>
                     <p>With the popularity of mobile devices, it is crucial for your website to ensure it responds to users device size.</p>
                     <p>This tool, completely built in JavaScript, allows for you to load your website within an iFrame and check each screen resolution that you want to test responsiveness for.</p>
@@ -76,7 +75,7 @@
                     <p><strong>Ironically this website isn't fully responsive. Of course the design is, but the iframe will not be usable on small devices
                     as the iframe loads the full resolution selected.</strong></p>
                 </div>
-                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                <div class="col-lg-5">
                     <a class="logo img-responsive" href="#container"></a>
                 </div>
             </div>
@@ -86,16 +85,15 @@
         <div class="footer-above">
             <div class="container">
                 <div class="row">
-                    <div class="myportfolio col-md-6 col-sm-5">
+                    <div class="myportfolio col-md-6">
                         <h3>Why make this tool?</h3>
                         <p>This tool was made to test website that I was developing to ensure that they're responsive to certain devices.</p>
                         <p>This tool is simply made with JavaScript and the website is displayed in an iFrame.</p>
+                        <p>No more tediously having to resize your browser when testing if your website is responsive</p>
                     </div>
-                    <div class="col-md-6 col-sm-6 col-xs-6">
+                    <div class="col-md-6">
                       <h3>Get this tool!</h3>
-                       <div class="socialIcons">
-                            <a href="https://github.com/aarogrammer/responsiveness"><i class="ion-social-github"></i></a>
-            			     </div>
+                            <a href="https://github.com/aarogrammer/responsiveness" class="git"><i class="ion-social-github"></i></a>
                     </div>
                 </div>
             </div>
@@ -104,7 +102,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
-                        Copyright © <a href="http://aaron-welsh.co.uk">Aaron Welsh</a> 2016
+                        Tool by <a href="http://aaron-welsh.co.uk">Aaron Welsh</a>
                     </div>
                 </div>
             </div>
